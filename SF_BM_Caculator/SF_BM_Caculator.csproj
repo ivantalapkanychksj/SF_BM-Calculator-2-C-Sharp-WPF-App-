@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>streamlinehq-money-graph-compare-money-shopping-48.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="streamlinehq-money-graph-compare-money-shopping-48.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="streamlinehq-money-graph-compare-money-shopping-48.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DataGridExtensions" Version="2.5.14" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.9" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="streamlinehq-money-graph-compare-money-shopping-48.png" />
+  </ItemGroup>
+
+</Project>
